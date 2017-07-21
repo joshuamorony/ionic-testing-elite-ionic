@@ -280,8 +280,8 @@ export class ViewControllerMock {
 }
 
 export class LoadingComponentMock {
-  present(): void {}
-  dismiss(): void {}
+  present(): any {return Promise.resolve(true)}
+  dismiss(): any {return Promise.resolve(true)}
 }
 
 export class LoadingControllerMock {
