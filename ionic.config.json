@@ -1,6 +1,5 @@
 {
   "name": "ionic-unit-testing-example",
-  "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {},
+  "type": "ionic-angular"
 }

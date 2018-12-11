@@ -3,7 +3,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { Observable } from 'rxjs/Observable';
 
 export class PlatformMock {
-  public ready(): Promise<{String}> {
+  public ready(): Promise<any> {
     return new Promise((resolve) => {
       resolve('READY');
     });
